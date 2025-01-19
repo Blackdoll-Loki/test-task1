@@ -1,0 +1,1 @@
+test task for https://robota.ua/company427473/vacancy10376770

@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
 }
 
 body {
-  padding: 5% 7%;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 3% 32.5%;
 }
 
 header {
@@ -15,10 +16,116 @@ header {
 
 h1 {
   text-align: center;
-  padding: 1% 0;
+  font-size: 16pt;
+  padding-bottom: 1em;
 }
 
-main > h2 {
-  text-align: center;
-  padding: 1% 0;
+h2 {
+  font-size: 15pt;
 }
+
+p {
+  font-size: 12pt;
+  line-height: 1.31;
+}
+
+main {
+  padding: 1em 0;
+}
+
+main h2{
+  text-align: center;
+  font-size: 16pt;
+  padding-bottom: 1em;
+}
+
+section {
+  padding-bottom: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+caption {
+  text-align: start;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 192px auto;
+}
+
+/* td:first-of-type{
+  padding: 5px;
+} */
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+img {
+  width: 170px;
+}
+
+ul {
+  padding-bottom: 1em;
+}
+
+ul > li{
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+.table-link{
+  font-size: 12pt;
+  text-decoration: none;
+  color: black;
+  padding-left: 15%;
+}
+
+.advantages {
+  padding-bottom: 2em;
+}
+
+.advantages h2 {
+  font-size: 16pt;
+}
+
+.image-block-img {
+  width: 46%;
+  float: left;
+  padding: 5px;
+}
+
+.image-block-heading {
+  font-size: 14pt;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+
+.image-block-paragraph {
+  font-size: 14pt;
+  padding-bottom: 2em;
+}
+
+.reliability{
+  clear: left;
+}
+
+.reliability h3 {
+  font-size: 14pt;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.reliability li {
+  font-size: 14pt;
+  padding-bottom: 1em;
+}
+
